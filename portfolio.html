@@ -4,99 +4,107 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Portfolio Page </title>
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+  <body class="body-container">
     <header>
         <nav>
-          <a href="https://webstudio.com.ua" target="_blank" rel="noopener noreferrer">
-            WebStudio
+          <a class="logo" href="./index.html" target="_blank" rel="noopener noreferrer">
+            Web  <span class="logo-studio-second">Studio</span>
           </a>
-          <ul>
+          <ul class="list">
   
-            <li><a href="2.html">Студия</a></li>
-            <li><a href="3.html">Портфолио</a></li>
-            <li><a href="4.html">Контакты</a></li>
+            <li><a class="in-nav-list" href="./index.html">Студия</a></li>
+            <li><a class="in-nav-list" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="in-nav-list" href="4.html">Контакты</a></li>
           </ul>
         </nav>
-        <ul>
-          <li><a href="mailto">info@devstudio.com </a></li>
-          <li><a href="tel">+38 096 111 11 11 </a></li>
+        <ul class="list">
+          <li><a class="out-nav-list" href="mailto">info@devstudio.com </a></li>
+          <li><a class="out-nav-list" href="tel">+38 096 111 11 11 </a></li>
         </ul>
       </header>
+
+      <main>
+        <h1 class="hidden-title">Портфоліо</h1>
       <section>
-          <h2> Меню Кнопок </h2>
-          <ul>
-              <li><button type="button">Все</button></li>
-              <li><button type="button">Веб-сайты</button></li>
-              <li><button type="button">Приложения</button></li>
-              <li><button type="button">Дизайн</button></li>
-              <li><button type="button">Маркетинг</button></li>
+          <h2 class="hidden-title"> Меню Кнопок </h2>
+          <ul class="list"> 
+              <li><button class="buttons-portfolio" type="button">Все</button></li>
+              <li><button class="buttons-portfolio" type="button">Веб-сайты</button></li>
+              <li><button class="buttons-portfolio" type="button">Приложения</button></li>
+              <li><button class="buttons-portfolio" type="button">Дизайн</button></li>
+              <li><button class="buttons-portfolio" type="button">Маркетинг</button></li>
           </ul>
       </section>
-
+      
       <section>
-          <h2> Меню фото </h2>
-          <ul>
+          <h2 class="hidden-title"> Меню фото </h2>
+          <ul class="list">
               <li>
                   <img src="./images/FP1.jpg" alt="Website" width="370" height="294">
                   <h3>Технокряк</h3>
-                  <p>Веб-сайт</p>
+                  <p class="photoes-p">Веб-сайт</p>
               </li>
               <li>
                   <img src="./images/FP2.jpg" alt="Poster New Orlean vs Golden Star" width="370" height="294">
-                  <h3>Постер New Orlean vs Golden Star</h3>
-                  <p>Дизайн</p>
+                  <h3 class="third-title">Постер New Orlean vs Golden Star</h3>
+                  <p class="photoes-p">Дизайн</p>
               </li>
               <li>
                 <img src="./images/FP3.jpg" alt="Ресторан Seafood" width="370" height="294">
-                <h3>Ресторан Seafood</h3>
-                <p> Веб-сайт</p>
+                <h3 class="third-title">Ресторан Seafood</h3>
+                <p class="photoes-p"> Веб-сайт</p>
             </li>
         </li>
         <li>
           <img src="./images/FP4.jpg" alt="Проект Prime" width="370" height="294">
-          <h3>Проект Prime</h3>
-          <p>Маркетинг</p>
+          <h3 class="third-title">Проект Prime</h3>
+          <p class="photoes-p">Маркетинг</p>
       </li>
       <li>
         <img src="./images/FP5.jpg" alt="Проект Boxes" width="370" height="294">
-        <h3>Проект Boxes</h3>
-        <p>Приложение</p>
+        <h3 class="third-title">Проект Boxes</h3>
+        <p class="photoes-p">Приложение</p>
     </li>
     <li>
         <img src="./images/FP6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-        <h3>Inspiration has no Borders</h3>
-        <p>Веб-сайт</p>
+        <h3 class="third-title">Inspiration has no Borders</h3>
+        <p class="photoes-p">Веб-сайт</p>
     </li>
     <li>
         <img src="./images/FP7.jpg" alt="Limited Edition" width="370" height="294">
-        <h3>Издание Limited Edition</h3>
-        <p>Дизайн</p>
+        <h3 class="third-title">Издание Limited Edition</h3>
+        <p class="photoes-p">Дизайн</p>
     </li>
     <li>
         <img src="./images/FP8.jpg" alt="LAB" width="370" height="294">
-        <h3>Проект LAB</h3>
-        <p>Маркетинг</p>
+        <h3 class="third-title">Проект LAB</h3>
+        <p class="photoes-p">Маркетинг</p>
     </li>
     <li>
         <img src="./images/FP9.jpg" alt="Growing Business" width="370" height="294">
-        <h3>Growing Business</h3>
-        <p>Приложение</p>
+        <h3 class="third-title">Growing Business</h3>
+        <p class="photoes-p">Приложение</p>
     </li>
           </ul>
       </section>
+    </main>
   <!--footer conteiner-->
-  <footer>
-    <a href="https://webstudio.com.ua" target="_blank" rel="noopener noreferrer"> WebStudio </a>
+  <footer class="footer-conteiner">
+    <a class="logo" href="https://webstudio.com.ua" target="_blank" rel="noopener noreferrer"> Web <span class="logo-studio-second-footer">Studio</span></a>
     <address>
-      <ul>
+      <ul class="list"> 
         <li>
-          <a href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">
+          <a class="adress-conteiner" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">
             г. Киев, пр-т Леси Украинки, 26
           </a>
         </li>
-        <li><a class="link" href="mailto:info@devstudio.com">info@example.com</a></li>
-        <li><a href="tel:+380961111111"> +38 096 111 11 11 </a></li>
+        <li><a class="contact-conteiner" href="mailto:info@devstudio.com">info@example.com</a></li>
+        <li><a class="contact-conteiner" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
       </ul>
     </address>
   </footer>

@@ -1,0 +1,157 @@
+.body-container{
+font-family: 'Roboto', Raleway;
+color: #212121;
+background-color: white;
+letter-spacing: 0.03em;
+}
+
+/* Header conteiner*/
+.logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+color: #2196F3;
+text-decoration: none;
+}
+
+.logo-studio-second{
+ color: black;
+}
+
+.logo-studio-second-footer{
+color: white;
+}
+.in-nav-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.out-nav-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.in-nav-list:hover,.in-nav-list:focus,
+.out-nav-list:hover, .out-nav-list:focus,
+.contact-conteiner:hover, .contact-conteiner:focus,
+.adress-conteiner:hover, .adress-conteiner:focus
+{
+  color: #2196F3;
+}
+
+.list{
+  list-style: none;
+}
+
+/* main conteiner index */
+.hero-title-button{
+background: #2F303A;
+}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.button-hero{
+cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+rgba(0, 0, 0, 0.15);
+}
+
+/*Title section*/
+
+.second-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166px;
+text-align: center;
+}
+
+.third-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+}
+
+.hidden-title{
+  display: none
+}
+
+/*about product section*/
+.about-product-p{
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+.our-team-p{
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+color: #757575;
+}
+
+/* main conteiner portfolio */
+
+.buttons-portfolio:hover{
+  background: #2196F3; 
+  color: #FFFFFF; 
+}
+.buttons-portfolio:focus{
+  background: #F5F4FA;
+}
+.buttons-portfolio{
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  }
+
+.photoes-p{
+font-size: 16px;
+line-height: 1.875;
+color: #757575;
+}
+
+/* footer conteiner */
+.footer-conteiner{
+background: #2F303A;
+}
+.contact-conteiner{
+font-size: 14px;
+line-height: 1,714;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.adress-conteiner{
+font-size: 14px;
+line-height: 1.714;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+
