@@ -1,7 +1,13 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --text-color: #757575;
+  --native-color: #FFFFFF;
+}
+
 .body-container{
 font-family: 'Roboto', Raleway;
-color: #212121;
-background-color: white;
+background-color: var(--native-color);
 letter-spacing: 0.03em;
 }
 
@@ -11,30 +17,30 @@ font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
-color: #2196F3;
 text-decoration: none;
+color: var(--accent-color)
 }
 
 .logo-studio-second{
- color: black;
+ color: var(--title-text-color);
 }
 
 .logo-studio-second-footer{
-color: white;
+color: var(--native-color);
 }
 .in-nav-list{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color:var(--title-text-color);
 }
 .out-nav-list{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--text-color);
 }
 
 .in-nav-list:hover,.in-nav-list:focus,
@@ -42,7 +48,7 @@ color: #757575;
 .contact-conteiner:hover, .contact-conteiner:focus,
 .adress-conteiner:hover, .adress-conteiner:focus
 {
-  color: #2196F3;
+  color:var(--accent-color);
 }
 
 .list{
@@ -61,7 +67,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--native-color);
 }
 
 .button-hero{
@@ -73,9 +79,11 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
-background: #2196F3;
+color: var(--native-color);
+background: var(--accent-color);
+box-shadow: 0px 4px 4px 
 rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 /*Title section*/
@@ -85,6 +93,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.166px;
 text-align: center;
+color: var(--title-text-color)
 }
 
 .third-title{
@@ -92,6 +101,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 text-transform: uppercase;
+color: var(--title-text-color)
 }
 
 .hidden-title{
@@ -102,21 +112,21 @@ text-transform: uppercase;
 .about-product-p{
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .our-team-p{
 font-size: 16px;
 line-height: 1.187;
 text-align: center;
-color: #757575;
+color: var(--text-color);
 }
 
 /* main conteiner portfolio */
 
 .buttons-portfolio:hover{
-  background: #2196F3; 
-  color: #FFFFFF; 
+  background: var(--accent-color); 
+  color: var(--native-color); 
 }
 .buttons-portfolio:focus{
   background: #F5F4FA;
@@ -128,12 +138,13 @@ color: #757575;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
   }
 
 .photoes-p{
 font-size: 16px;
 line-height: 1.875;
-color: #757575;
+color: var(--text-color);
 }
 
 /* footer conteiner */
@@ -149,7 +160,7 @@ text-decoration: none;
 .adress-conteiner{
 font-size: 14px;
 line-height: 1.714;
-color: #FFFFFF;
+color: var(--native-color);
 text-decoration: none;
 }
 
